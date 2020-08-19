@@ -7,7 +7,9 @@
 
 ikRockArrowFunctions()*/
 
-const ikRockArrowFunctions = () => console.log("Joe, ik rock de arrow functions!");
+const ikRockArrowFunctions = () => {
+  console.log("Joe, ik rock de arrow functions!");
+};
 ikRockArrowFunctions();
 
 // Deel B:
@@ -19,17 +21,17 @@ ikRockArrowFunctions();
 
 fivePlusSeven(); */
 
-const fivePlusSeven = () => 5 + 7
+const fivePlusSeven = () => 5 + 7;
 fivePlusSeven();
 
 // Deel C:
-sum => 1 + 2
+() => 1 + 2;
 
 // Deel D:
-const myFunction = (a, b) => a + b
+const myFunction = (a, b) => a + b;
 
 // Deel E:
-const addFive = a => a + 5
+const addFive = a => a + 5;
 
 // Deel F:
-const createObject = () => ({ greeting: "hoi" })
+const createObject = () => ({ greeting: "hoi" });
